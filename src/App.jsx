@@ -7,13 +7,12 @@ import Spinner from './components/moon-model/Spinner';
 function App() {
   return (
     <>
-      <div className="layout">
-        <div className="canvas-container">
+      <div className="canvas-container">
+        <Suspense fallback={<Spinner />}>
           <Canvas id="three-canvas-container">
-            <Suspense fallback={<Spinner />} />
             <Moon />
           </Canvas>
-        </div>
+        </Suspense>
       </div>
 
       <div className="content">
