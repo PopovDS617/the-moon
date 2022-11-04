@@ -14,7 +14,7 @@ import { TextureLoader } from 'three/src/loaders/TextureLoader';
 const Moon = () => {
   const { scene } = useThree();
 
-  const EnvironmentTexture = useLoader(TextureLoader, 'public/space2.jpg');
+  const EnvironmentTexture = useLoader(TextureLoader, 'space2.jpg');
   EnvironmentTexture.encoding = THREE.sRGBEncoding;
   scene.background = EnvironmentTexture;
 
