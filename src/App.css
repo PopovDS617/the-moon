@@ -28,6 +28,13 @@ body {
   width: 100%;
 }
 
+.spinner {
+  z-index: 1;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+
 .content {
   color: white;
   z-index: 99;

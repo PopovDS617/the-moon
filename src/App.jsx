@@ -2,6 +2,7 @@ import { Canvas } from '@react-three/fiber';
 import { Suspense } from 'react';
 import './App.css';
 import Moon from './components/moon-model/Moon';
+import Spinner from './components/moon-model/Spinner';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <div className="layout">
         <div className="canvas-container">
           <Canvas id="three-canvas-container">
-            <Suspense fallback={<></>} />
+            <Suspense fallback={<Spinner />} />
             <Moon />
           </Canvas>
         </div>

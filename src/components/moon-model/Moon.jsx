@@ -39,7 +39,7 @@ const Moon = () => {
 
       <pointLight
         castShadow
-        args={['#ffffff', 5]}
+        args={['#ffffff', 6]}
         position={[5, -5, -77]}
         penumbra={1}
         distance={100}
