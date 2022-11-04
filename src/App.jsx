@@ -18,7 +18,7 @@ function App() {
 
       <div className="content">
         <div className="article">
-          <div className="header">hello</div>
+          <div className="header">the Moon</div>
           <p>Diameter: 3,475 km</p>
           <p>Mass: 7.35 × 10^22 kg (0.01 Earths)</p>
           <p>Distance from Earth: 385,000 km</p>
