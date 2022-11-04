@@ -1,0 +1,69 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+.layout {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100vh;
+}
+
+.canvas-container {
+  z-index: -1;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header {
+  font-family: 'Aboreto', cursive;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.article {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 20px;
+  font-family: 'Rajdhani', sans-serif;
+
+  padding: 2.2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+
+  font-size: clamp(1rem, 0.5rem + 1vw, 2rem);
+
+  backdrop-filter: blur(3px);
+}
+
+@media (min-width: 568px) {
+  .article {
+    margin-top: 3rem;
+    margin-right: 5rem;
+  }
+}
