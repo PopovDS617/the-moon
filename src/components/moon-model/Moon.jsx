@@ -20,7 +20,7 @@ const Moon = () => {
 
   const moonRef = useRef(null);
   useFrame(({}) => {
-    moonRef.current.rotation.y += 0.0007;
+    moonRef.current.rotation.y += 0.0004;
   });
   const moonTexture = useTexture('moon.jpg');
 
