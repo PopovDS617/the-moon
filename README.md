@@ -1,5 +1,11 @@
- ###  npm install
- ###  npm run start
+## DEMO https://moon-pp.netlify.app/
  
- 
- ####   vanilla JS & threeJS version - https://github.com/PopovDS617/the-moon-vanilla
+## Getting Started
+#### `1. npm install`
+#### `2. npm run dev`
+
+<br>
+
+## TO DO:
+
+to be added later 
